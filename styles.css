@@ -1,0 +1,47 @@
+.roulette {
+    width: 500px;
+
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.roulette-gap {
+    display: flex;
+    transition: 5s;
+    
+}
+
+.roulette::after {
+    content: '-';
+    position: absolute;
+    color: red;
+    transform: scaleY(12) scaleX(2) rotate(90deg);
+    top: 2%;
+    left: 50%;
+}
+
+.container {
+    text-align: center;
+}
+
+.roulette-item {
+    width: 50px;
+    margin: 2px;
+}
+
+
+.btn {
+    display: flex;
+    margin: 0 auto;
+}
+
+.reset {
+    display: flex;
+    margin: 0 auto;
+}
